@@ -15,4 +15,5 @@ Downloaded and imported Kali Linux into VirtualBox.
 5. Kali Linux Network Configuration
 Configured the Kali Linux IP settings and connected it to the lab network.
 6. VM Snapshot
-Created a snapshot of the Kali Linux VM to provide a clean restore point before performing security labs.<img width="941" height="256" alt="Screenshot 2026-08-09 132807" src="https://github.com/user-attachments/assets/fd3bb88f-4936-41d4-812b-173d6373daa9" />
+Created a snapshot of the Kali Linux VM to provide a clean restore point before performing security labs.<img width="1912" height="778" alt="Screenshot 2026-08-09 131235" src="https://github.com/user-attachments/assets/2e5b7888-a220-4bd6-a8b2-a8ce8e01d09c" />
+<img width="1914" height="972" alt="Screenshot 2026-08-09 134546" src="https://github.com/user-attachments/assets/570e745b-c415-4add-8fc1-c817bc67caea" />
