@@ -49,13 +49,13 @@ The snapshot provides a clean restore point before starting future cybersecurity
 
 # During Week 1, I learned how to set up and prepare a virtual cybersecurity lab environment for future projects.
 # I learned how to:
--Install and use 7-Zip to extract and manage virtual machine files.
--Install and configure Oracle VirtualBox as a virtualization platform.
--Create and configure a NAT Network using the 10.0.0.0/24 IP range.
--Download and import Kali Linux into VirtualBox.
--Configure Kali Linux network settings and connect it to the lab network.
--Assign and verify an IP address on Kali Linux.
--Create a VirtualBox snapshot to maintain a clean restore point for future experiments.
+1. Install and use 7-Zip to extract and manage virtual machine files.
+2. Install and configure Oracle VirtualBox as a virtualization platform.
+3. Create and configure a NAT Network using the 10.0.0.0/24 IP range.
+4. Download and import Kali Linux into VirtualBox.
+5. Configure Kali Linux network settings and connect it to the lab network.
+6. Assign and verify an IP address on Kali Linux.
+7. Create a VirtualBox snapshot to maintain a clean restore point for future experiments.
 # The isolated virtual network provides a controlled and safe environment where I can perform future cybersecurity experiments without affecting my main computer or external networks
 
  # Tools Used
