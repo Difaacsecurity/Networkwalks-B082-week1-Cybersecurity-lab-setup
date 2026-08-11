@@ -163,14 +163,12 @@ Correct network configuration is important because future cybersecurity machines
 
 After completing the initial Kali Linux configuration, I created a VirtualBox snapshot.
 
-### 📸 Screenshot
-
 ### Why?
 
 The snapshot provides a clean restore point.
 
 If a future cybersecurity experiment changes or damages the Kali Linux environment, I can restore the virtual machine to this clean baseline.
-
+### 📸 Screenshot
 <img width="1901" height="1010" alt="5" src="https://github.com/user-attachments/assets/d7a2af7b-7ce5-4196-94b5-2a5f57e4ff03" />
 # 🔎 Lab Verification
 
