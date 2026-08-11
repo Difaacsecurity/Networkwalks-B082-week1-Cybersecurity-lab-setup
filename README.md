@@ -170,8 +170,30 @@ The snapshot provides a clean restore point.
 If a future cybersecurity experiment changes or damages the Kali Linux environment, I can restore the virtual machine to this clean baseline.
 ### 📸 Screenshot
 <img width="1901" height="1010" alt="5" src="https://github.com/user-attachments/assets/d7a2af7b-7ce5-4196-94b5-2a5f57e4ff03" />
-# 🔎 Lab Verification
 
+## 🔎 Lab Verification
+
+| ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
+| ----------------------------- | ------------------------------- | ------------------------------- |
+| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
+| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
+| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
+| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
+| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
+| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
+
+### Example Results
+
+```text
+IP Address:
+10.0.0.2/24
+
+Gateway:
+10.0.0.1
+
+DNS:
+8.8.8.8
+```
 After completing the initial setup, the laboratory environment was checked to make sure the configuration was working correctly.
 
 
