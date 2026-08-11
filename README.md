@@ -1,78 +1,296 @@
-# Cybersecurity Lab Setup – Week 1
+# 🔐 Cybersecurity Lab Setup – Week 1
 
-# Purpose of the Lab
-This project is the foundation for my upcoming cybersecurity labs and projects.
-The main purpose of this week was to build and prepare a virtual cybersecurity environment that I can use for future practical projects.
-During this lab, I learned how to:
-#  Lab Setup – Step by Step
-# Step 1 – Install 7-Zip
-Installed 7-Zip on my Windows host machine to extract and manage compressed virtual machine files.
-# Why?
-7-Zip is useful for extracting and managing VM files downloaded in compressed formats.
-<img width="780" height="396" alt="Screenshot 2026-08-10 115659" src="https://github.com/user-attachments/assets/f4d4bba1-bdfb-4e02-b2da-b6a7d1ea1f9e" />
+Building a controlled virtual cybersecurity laboratory using VirtualBox and Kali Linux for future cybersecurity, networking, SOC, and security-testing projects.
+## 📌 Project Overview
+This project is the foundation for my upcoming cybersecurity labs and practical projects.
+
+The main goal of Week 1 was to build and configure a virtual cybersecurity environment using **Oracle VirtualBox** and **Kali Linux**.
+
+The lab provides a controlled environment where I can safely practice cybersecurity concepts, networking, security tools, and future penetration-testing activities.
+
+## 🎯 Objectives
+
+The main objectives of this project are to:
+
+* Install and configure 7-Zip
+* Install Oracle VirtualBox
+* Create a VirtualBox NAT Network
+* Download and import Kali Linux
+* Connect Kali Linux to the lab network
+* Configure and verify Kali Linux networking
+* Create a clean Virtual Machine snapshot
+* Document the complete lab setup
+* Prepare the environment for future cybersecurity projects
+
+## 🛡️ Purpose of the Lab
+
+The purpose of this laboratory is to provide an isolated and controlled environment for cybersecurity learning and practical experimentation.
+
+The environment will be used for future activities such as:
+
+* Network reconnaissance
+* Network scanning
+* Vulnerability assessment
+* Packet analysis
+* Security tool practice
+* SOC-related exercises
+* Cybersecurity labs
+* Authorized penetration-testing practice
+
+> ⚠️ **Ethical Use:**
+> This laboratory is intended for educational purposes and authorized security testing only. Security tools must only be used against systems that I own or have explicit permission to test.
 
 
-# Step 2 – Install VirtualBox
-I installed Oracle VirtualBox on my Windows host machine to create and manage virtual machines.
-# Why?
-VirtualBox provides the virtualization environment for my cybersecurity labs.
-<img width="1916" height="1032" alt="1" src="https://github.com/user-attachments/assets/8c424659-a82a-415a-8c43-52eedf26abff" />
+# ⚙️ Lab Configuration
+
+| Component                    | Configuration             |
+| ---------------------------- | ------------------------- |
+| 🖥️ Host Operating System    | Windows 11                |
+| 🧰 Hypervisor                | Oracle VirtualBox         |
+| 🐉 Security Operating System | Kali Linux                |
+| 🌐 Virtual Network           | NAT Network               |
+| 📡 Network Range             | 10.0.0.0/24               |
+| 📦 Archive Tool              | 7-Zip                     |
+| 💻 Repository                | GitHub                    |
+| 📚 Program                   | Networkwalks – Batch B082 |
+| 📅 Week                      | Week 1                    |
+
+---
+
+# 🪜 Lab Setup Procedure
+
+## Step 1 – Install 7-Zip
+
+I installed **7-Zip** on my Windows host machine.
+
+### Why?
+
+7-Zip is useful for extracting and managing compressed files, including virtual machine files distributed in compressed formats.
+
+### Result
+
+The installation was completed successfully and the system was ready to extract the required laboratory files.
+
+<img width="780" height="396" alt="Screenshot 2026-08-10 115659" src="https://github.com/user-attachments/assets/f498e944-02a4-4b22-8360-03b1295dc42b" />
+
+
+# Step 2 – Install Oracle VirtualBox
+
+I installed **Oracle VirtualBox** on my Windows host machine.
+
+### Why?
+
+VirtualBox provides the virtualization platform required to create, configure, and manage virtual machines for the cybersecurity laboratory.
+
+### Result
+
+VirtualBox was successfully installed and ready for the laboratory configuration.
+
+<img width="1916" height="1032" alt="1" src="https://github.com/user-attachments/assets/c6c44336-5556-4617-ade0-124da6fc842a" />
 
 # Step 3 – Create NAT Network
-Created a VirtualBox NAT Network with the following configuration:
-Network: 10.0.0.0/24
+
+I created a dedicated **NAT Network** in VirtualBox.
+
+### Network Configuration
+
 Network Type: NAT Network
+Network Range: 10.0.0.0/24
 
-# Why?
-This provides a controlled network environment for future cybersecurity projects.
-<img width="1908" height="977" alt="2" src="https://github.com/user-attachments/assets/6471b553-9838-4dec-9666-5f7d8b4b3b11" />
+### Why?
 
-# Step 4 – Install Kali Linux
-Downloaded and imported Kali Linux into VirtualBox and connected it to the NAT Network.
-# Why?
-Kali Linux will be used for future cybersecurity and networking projects.
-<img width="1911" height="954" alt="3" src="https://github.com/user-attachments/assets/cb95e3b3-b692-45c4-a954-b074a2a1f7e9" />
+The NAT Network provides a controlled virtual networking environment for the cybersecurity laboratory.
+
+It also allows additional virtual machines to be connected to the same laboratory network in future projects.
+
+<img width="1908" height="977" alt="2" src="https://github.com/user-attachments/assets/0c7597aa-b974-4487-b8e6-9163b054d331" />
+
+
+# Step 4 – Install and Import Kali Linux
+
+I downloaded and imported **Kali Linux** into Oracle VirtualBox.
+
+The Kali Linux virtual machine was connected to the laboratory NAT Network.
+
+### Why Kali Linux?
+
+Kali Linux is a security-focused operating system that provides many tools used for:
+
+* Network analysis
+* Security testing
+* Vulnerability assessment
+* Digital forensics
+* Penetration testing
+* Cybersecurity learning
+
+### Result
+
+Kali Linux was successfully imported into VirtualBox and connected to the laboratory network.
+
+<img width="1911" height="954" alt="3" src="https://github.com/user-attachments/assets/15b694ce-9032-4268-b422-13ee595396e4" />
+
 
 # Step 5 – Configure Kali Linux Network
-Configured Kali Linux to connect to the lab network and verified the assigned IP address.
-IP Range:10.0.0.0/24
-<img width="689" height="546" alt="4" src="https://github.com/user-attachments/assets/f6830ba1-e57e-486b-83fc-4e641dc5a45c" />
 
-# STEP 6 - VM Snapshot
-Created a VirtualBox snapshot after completing the initial lab configuration.
-Snapshot name: "Snapshot 1-my kali fresh backup(9-aug-2026"
-# Why?
-The snapshot provides a clean restore point before starting future cybersecurity experiments.
-<img width="1901" height="1010" alt="5" src="https://github.com/user-attachments/assets/8db9c850-9c49-4d85-90f2-3fa2578b5e3d" />
+I configured Kali Linux to connect to the laboratory network.
 
-# What I Learned
+IP Address:
+10.0.0.2/24
 
-# During Week 1, I learned how to set up and prepare a virtual cybersecurity lab environment for future projects.
-# I learned how to:
-1. Install and use 7-Zip to extract and manage virtual machine files.
-2. Install and configure Oracle VirtualBox as a virtualization platform.
-3. Create and configure a NAT Network using the 10.0.0.0/24 IP range.
-4. Download and import Kali Linux into VirtualBox.
-5. Configure Kali Linux network settings and connect it to the lab network.
-6. Assign and verify an IP address on Kali Linux.
-7. Create a VirtualBox snapshot to maintain a clean restore point for future experiments.
-# The isolated virtual network provides a controlled and safe environment where I can perform future cybersecurity experiments without affecting my main computer or external networks
+Gateway:
+10.0.0.1
 
- # Tools Used
-Oracle VirtualBox
-Kali Linux
-7-Zip
-Windows 11 (host machine)
-GitHub
-LinkedIn 
+DNS:
+8.8.8.8
 
-# Author
-Abbas Ali Gedi
-Cybersecurity | SOC Analyst | IT Support Specialist
-Batch:B082
-GitHub: Difaacsecurity
-LinkedIn:"https://www.linkedin.com/in/abbas-ali-gedi-95432b381/"
+I then verified that Kali Linux received an IP address from the configured virtual network.
 
-# Project Status
-# Completed – Week 1
-The lab is ready to support my upcoming cybersecurity, networking, and SOC projects.
+### Why?
+
+Correct network configuration is important because future cybersecurity machines and targets will need to communicate within the laboratory environment.
+
+### 📸 Screenshot
+
+<img width="689" height="546" alt="4" src="https://github.com/user-attachments/assets/f20e2ca1-5796-4e0c-b5f4-84fb7dde34b2" />
+
+
+# Step 6 – Create a Virtual Machine Snapshot
+
+After completing the initial Kali Linux configuration, I created a VirtualBox snapshot.
+
+### Snapshot Name
+
+<img width="1901" height="1010" alt="5" src="https://github.com/user-attachments/assets/d7a2af7b-7ce5-4196-94b5-2a5f57e4ff03" />
+
+
+### Why?
+
+The snapshot provides a clean restore point.
+
+If a future cybersecurity experiment changes or damages the Kali Linux environment, I can restore the virtual machine to this clean baseline.
+
+
+
+# 🔎 Lab Verification
+
+After completing the initial setup, the laboratory environment was checked to make sure the configuration was working correctly.
+
+
+# 🐞 Problems Encountered & Solutions
+
+Documenting problems and solutions is an important part of this project because troubleshooting is an essential cybersecurity and IT skill.
+
+## Problem 1 – Network Configuration
+
+During the lab setup, the Kali Linux network configuration needed to be checked to ensure that the virtual machine was correctly connected to the NAT Network.
+
+### Solution
+
+I reviewed the VirtualBox network adapter configuration and verified that Kali Linux was connected to the correct NAT Network.
+
+## Problem 2 – Maintaining a Clean Lab Environment
+
+Cybersecurity experiments can modify system configurations or files.
+
+### Solution
+
+I created a VirtualBox snapshot after completing the initial setup.
+
+This provides a clean recovery point for future cybersecurity experiments.
+
+
+# 💡 What I Learned
+
+During Week 1, I learned how to build the foundation of a virtual cybersecurity laboratory.
+
+### Technical Skills
+
+1. How to install and use 7-Zip.
+2. How to install Oracle VirtualBox.
+3. How virtualization can be used for cybersecurity training.
+4. How to create a NAT Network in VirtualBox.
+5. How to import Kali Linux as a virtual machine.
+6. How to connect a virtual machine to a virtual network.
+7. How to check Kali Linux network configuration.
+8. How to create and use VM snapshots.
+
+### Professional Skills
+
+I also learned that professional cybersecurity work is not only about technical skills.
+
+It is also important to:
+
+* Document technical work clearly.
+* Capture evidence using screenshots.
+* Record configurations.
+* Document problems and solutions.
+* Maintain a clean laboratory environment.
+* Build a professional GitHub portfolio.
+
+
+# 🔐 Security & Ethical Use
+
+This laboratory is designed for **educational and authorized security testing purposes only**.
+
+All future penetration-testing, scanning, exploitation, and security-testing activities will be performed only against systems that I own or have explicit authorization to test.
+
+
+# 🔗 Tools & Technologies
+
+* **Windows 11** – Host Operating System
+* **Oracle VirtualBox** – Virtualization Platform
+* **Kali Linux** – Cybersecurity Operating System
+* **7-Zip** – Archive Management
+* **GitHub** – Project Documentation & Version Control
+
+
+# 📚 Future Development
+
+This Week 1 laboratory will serve as the foundation for future cybersecurity projects.
+
+Planned future activities may include:
+
+* Windows Server laboratory
+* Active Directory laboratory
+* Network scanning
+* Vulnerability assessment
+* SIEM laboratory
+* Splunk practice
+* SOC monitoring
+* Incident detection and response
+* Network traffic analysis
+* Penetration-testing labs
+
+
+
+# 👤 Author
+
+**Abbas Ali Gedi**
+
+**Cybersecurity | SOC Analyst | IT Support Specialist**
+
+**Program:** Networkwalks
+**Batch:** B082
+**Week:** 01
+
+### GitHub
+
+**Difaacsecurity**
+
+### LinkedIn
+
+[Abbas Ali Gedi](https://www.linkedin.com/in/abbas-ali-gedi-95432b381/)
+
+
+# 📌 Project Status
+
+**Status: ✅ Completed – Week 1**
+
+The initial cybersecurity laboratory environment has been successfully prepared and is ready to support future cybersecurity, networking, and SOC projects.
+
+
+## ⭐ Key Takeaway
+
+> **Build it. Document it. Practice it. Defend it.**
+
+This laboratory is the starting point for my practical cybersecurity journey.
