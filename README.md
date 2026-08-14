@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Linkedin-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-   <img src="https://img.shields.io/badge/Abbas%20Ali%20CCIE-C00000?style=flat-square" />
+   <img src="https://img.shields.io/badge/Abbas%20Ali%20Gedi-C00000?style=flat-square" />
 </p>
 
 ---
