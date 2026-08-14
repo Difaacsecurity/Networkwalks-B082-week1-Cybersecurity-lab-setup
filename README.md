@@ -21,7 +21,6 @@
 ---
 
 ## 📌 Project Overview
-## 📌 Project Overview
 This project is the foundation for my upcoming cybersecurity labs and practical projects.
 
 The main goal of Week 1 was to build and configure a virtual cybersecurity environment using **Oracle VirtualBox** and **Kali Linux**.
