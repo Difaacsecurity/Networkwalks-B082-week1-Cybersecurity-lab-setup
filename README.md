@@ -1,6 +1,24 @@
-# 🔐 Cybersecurity Lab Setup – Week 1
+<h1 align="center">🔐 Cybersecurity Lab Environment Setup</h1>
 
-Building a controlled virtual cybersecurity laboratory using VirtualBox and Kali Linux for future cybersecurity, networking, SOC, and security-testing projects.
+<p align="center">
+  <strong>Building an isolated virtual lab for cybersecurity, networking, and SOC practice</strong>
+</p>
+
+<p align="center">
+
+![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-v7.2-blue)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-v2026.2-orange)
+![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-green)
+![Skill](https://img.shields.io/badge/Skill-SOC%20Analysis-purple)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
+![NetworkWalks](https://img.shields.io/badge/NetworkWalks-B082-blue)
+
+</p>
+
+---
+
+## 📌 Project Overview
 ## 📌 Project Overview
 This project is the foundation for my upcoming cybersecurity labs and practical projects.
 
