@@ -7,12 +7,13 @@
 <p align="center">
 
 ![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-v7.2-blue)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-v7.2.14-blue)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-v2026.2-orange)
 ![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-green)
-![Skill](https://img.shields.io/badge/Skill-SOC%20Analysis-purple)
+![Linux](https://img.shields.io/badge/Skill-SOC%20Analysis-purple)
 ![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 ![NetworkWalks](https://img.shields.io/badge/NetworkWalks-B082-blue)
+![Penetration testing](https://img.shields.io/badge/Ethical hacking-red)
 
 </p>
 
